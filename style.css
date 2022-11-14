@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #1f2937;
+    font-family: "Roboto";
+    
+}
+
+.header{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;  
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.info{
+    padding: 70px;
+    margin: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    width: 35%;
+    margin: 56px;
+    padding: 0;
+    flex: 1 1 100%;
+    word-wrap: break-word;
+}
+
+.text-1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8
+}
+
+.text-2{
+    font-size: 18px;
+    color: #E5e7eb
+}
+
+.placeholder{
+    padding: 61px;
+    width: 65%;
+    height: max-content;
+    border-color: #E5e7eb;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+button{
+    padding-left:16px;
+    padding-right: 16px;
+    border: solid;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    color: #E5e7eb;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.images-placeholder{
+    height: max-content;
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-placeholder-text{
+    padding: 50px;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+    overflow-wrap: break-word;
+    gap:16px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.section-quote{
+    background-color: #E5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.quote{
+    
+    font-size: 36px;
+    font-style: italic;
+}
+
+.letter{
+    font-weight: bolder;
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.section-action{
+    background-color: #f9faf8;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.action-call{
+    background-color: #3882f6;
+    color: #E5e7eb;
+    padding: 40px;
+    border-radius: 15px;
+    overflow-wrap: break-word;
+    display: flex;
+    align-items: stretch;
+    gap:16px;
+}
+
+.sign-up{
+    border-color: #f9faf8;
+}
+
+.footer{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    color:#f9faf8;
+}
+
+
+
